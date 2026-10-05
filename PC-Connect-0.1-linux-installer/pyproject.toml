@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pc-connect"
+version = "4.0.1"
+description = "Private local-network communication and file sharing application"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=43,<48"]
+
+
+[project.scripts]
+pc-connect = "pc_connect.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

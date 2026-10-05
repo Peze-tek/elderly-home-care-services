@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PC Connect
+Comment=Private local-network communication and file sharing
+Exec=pc-connect
+Icon=pc-connect
+Terminal=false
+Categories=Network;Utility;
+StartupNotify=true
